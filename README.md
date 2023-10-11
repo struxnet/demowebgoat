@@ -7,6 +7,7 @@
 [![Gitter](https://badges.gitter.im/OWASPWebGoat/community.svg)](https://gitter.im/OWASPWebGoat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Discussions](https://img.shields.io/github/discussions/WebGoat/WebGoat)](https://github.com/WebGoat/WebGoat/discussions)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fstruxnet%2Fdemowebgoat.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fstruxnet%2Fdemowebgoat?ref=badge_shield)
 
 # Introduction
 
@@ -143,3 +144,7 @@ Or in a docker run it would (once this version is pushed into docker hub) look l
 docker run -d -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 -e EXCLUDE_CATEGORIES="CLIENT_SIDE,GENERAL,CHALLENGE" -e EXCLUDE_LESSONS="SqlInjectionAdvanced,SqlInjectionMitigations" webgoat/webgoat
 ```
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fstruxnet%2Fdemowebgoat.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fstruxnet%2Fdemowebgoat?ref=badge_large)
